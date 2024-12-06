@@ -1,1 +1,18 @@
-Zytle
+
+```
+git clone https://github.com/foxytouxxx/freeroot.git
+cd freeroot
+bash root.sh
+```
+
+```
+apt update
+```
+
+```
+apt-get install sudo wget curl systemctl
+```
+
+```
+curl -o /bin/systemctl https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py && chmod -R 777 /bin/systemctl
+```
